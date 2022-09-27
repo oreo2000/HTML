@@ -48,12 +48,39 @@ p2{position: absolute;
   font-size: 25px}
 
 h4 {position:absolute;
-  top:900ssspx;
+  top:940px;
   padding-left:100px;
   text-align: left;
   font-size: 25px}
 p3{position: absolute;
-  top:1000px;
+  top:1020px;
   padding-left:100px;
   text-align: left;
   font-size: 25px}
+.flex {
+  display: flex; 
+}
+.flex .image {
+  width: 640px; 
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.flex {
+  display: flex; 
+}
+.flex .image {
+  width: 600p;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  left: 88px;
+}
+.flex .text {
+  font-size: 36px;
+  margin: 0 0 0 20px;
+  padding: 20;
+}
